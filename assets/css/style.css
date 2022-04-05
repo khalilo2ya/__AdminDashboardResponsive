@@ -402,4 +402,29 @@ body {
 .recentCustomers table tr:hover{
     background: var(--blue);
     color: var(--white);
+    /* cursor: pointer;*/
 }
+.recentCustomers table tr td{
+    padding: 12px 10px;
+
+}
+.recentCustomers table tr td h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
+.recentCustomers table tr td h4 span{
+    font-size: 14px;
+    color: var(--black2);
+}
+
+.recentCustomers table tr:hover{
+    background: var(--blue);
+    color: var(--white);
+}
+.recentCustomers table tr:hover td h4 span{
+    color: var(--white);
+}
+
+
+
